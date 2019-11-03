@@ -12,6 +12,7 @@
     "core-js": "^3.3.2",
     "express": "^4.17.1",
     "mssql": "^5.1.0",
+    "nodemon": "^1.19.4",
     "vue": "^2.6.10",
     "vuetify": "^2.1.9"
   },
@@ -46,5 +47,17 @@
   "browserslist": [
     "> 1%",
     "last 2 versions"
-  ]
+  ],
+  "description": "## Project setup ``` npm install ```",
+  "main": "babel.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rogermawer/cautious-doodle.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rogermawer/cautious-doodle/issues"
+  },
+  "homepage": "https://github.com/rogermawer/cautious-doodle#readme"
 }
