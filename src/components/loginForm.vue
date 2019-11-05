@@ -7,7 +7,6 @@
         </v-card-title>
         <v-card-text>
           <v-form>
-              <p>hellooooo</p>
               <v-text-field label="username"></v-text-field>
               <v-text-field label="password"></v-text-field>
           </v-form>
