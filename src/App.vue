@@ -38,7 +38,9 @@
     </v-app-bar>
 
     <v-content>
+        
       <loginForm/>
+        
     </v-content>
       
       

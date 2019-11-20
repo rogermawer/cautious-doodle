@@ -19,6 +19,11 @@
                 prepend-icon="mdi-lock"
                 type="password"
               />
+              <v-btn
+                href="/"
+                large
+                color="primary">
+                login</v-btn>
           </v-form>
         </v-card-text>
       </v-card>
