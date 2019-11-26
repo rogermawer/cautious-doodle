@@ -1,3 +1,4 @@
+
 <template>
   <v-app>
     <v-app-bar
@@ -36,11 +37,17 @@
         <v-icon>mdi-open-in-new</v-icon>
       </v-btn>
     </v-app-bar>
+      
 
     <v-content>
-        
-      <loginForm/>
-        
+        <div id="app">
+            <div id="nav">
+                <router-link to="/">Home</router-link> |
+                <router-link to="/about">About</router-link> |
+                <router-link to="/playground">Playground</router-link>
+                </div>
+                <router-view/>
+            </div>
     </v-content>
       
       
@@ -48,13 +55,12 @@
 </template>
 
 <script>
-import loginForm from './components/loginForm'
 
 export default {
   name: 'App',
 
   components: {
-    loginForm
+ 
   },
 
   data: () => ({
