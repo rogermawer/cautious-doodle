@@ -3,7 +3,7 @@
     <v-app>
         <v-card v-on:click="selectPlayer($event)" class="" v-for="player in players" v-bind:key="player.name" v-bind:player="player.name">
             <v-card-title>{{player.name}}</v-card-title>
-            <v-card-text>{{player.tagline}}</v-card-text>
+            <v-card-text>"{{player.tagline}}"</v-card-text>
             <v-card-text>{{player.points}}</v-card-text>
         </v-card>
     </v-app>
