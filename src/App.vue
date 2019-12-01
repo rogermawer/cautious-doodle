@@ -3,7 +3,7 @@
   <v-app>
     <v-app-bar
       app
-      color="primary"
+      color="dark"
       dark
     >
       <div class="d-flex align-center">
@@ -39,7 +39,7 @@
     </v-app-bar>
       
 
-    <v-content>
+    <v-content class="ma-6">
         <div id="app">
             <div id="nav">
                 <router-link to="/">Home</router-link> |
