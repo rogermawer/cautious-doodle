@@ -1,8 +1,8 @@
 <template>
-  <div class="home">
-    <loginForm/>
+    <div class="home">
+      <loginForm/>
     
-  </div>
+    </div>
 </template>
 
 <script>

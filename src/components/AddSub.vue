@@ -41,9 +41,6 @@
 </script>
 
 <style>
-    .selected {
-        background-color: rgba(0, 0, 0, 0.87)!important;
-        color: white!important
-    }
+   
 
 </style>
